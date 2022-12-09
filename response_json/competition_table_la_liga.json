@@ -1,0 +1,222 @@
+[
+    {
+        "Position": "1",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F5.png",
+        "Name": "Barcelona",
+        "Points": "37",
+        "Played": "14",
+        "Winned": "12",
+        "Loosed": "1",
+        "Tie": "1",
+        "Goal Difference": "28"
+    },
+    {
+        "Position": "2",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F26.png",
+        "Name": "Real Madrid",
+        "Points": "35",
+        "Played": "14",
+        "Winned": "11",
+        "Loosed": "1",
+        "Tie": "2",
+        "Goal Difference": "19"
+    },
+    {
+        "Position": "3",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F223.png",
+        "Name": "Real Sociedad",
+        "Points": "26",
+        "Played": "14",
+        "Winned": "8",
+        "Loosed": "4",
+        "Tie": "2",
+        "Goal Difference": "2"
+    },
+    {
+        "Position": "4",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F213.png",
+        "Name": "Athletic Club",
+        "Points": "24",
+        "Played": "14",
+        "Winned": "7",
+        "Loosed": "4",
+        "Tie": "3",
+        "Goal Difference": "10"
+    },
+    {
+        "Position": "5",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F3.png",
+        "Name": "Atlético Madrid",
+        "Points": "24",
+        "Played": "14",
+        "Winned": "7",
+        "Loosed": "4",
+        "Tie": "3",
+        "Goal Difference": "7"
+    },
+    {
+        "Position": "6",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F691.png",
+        "Name": "Real Betis",
+        "Points": "24",
+        "Played": "14",
+        "Winned": "7",
+        "Loosed": "4",
+        "Tie": "3",
+        "Goal Difference": "5"
+    },
+    {
+        "Position": "7",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F221.png",
+        "Name": "Osasuna",
+        "Points": "23",
+        "Played": "14",
+        "Winned": "7",
+        "Loosed": "5",
+        "Tie": "2",
+        "Goal Difference": "2"
+    },
+    {
+        "Position": "8",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F690.png",
+        "Name": "Rayo Vallecano",
+        "Points": "22",
+        "Played": "14",
+        "Winned": "6",
+        "Loosed": "4",
+        "Tie": "4",
+        "Goal Difference": "4"
+    },
+    {
+        "Position": "9",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F226.png",
+        "Name": "Villarreal",
+        "Points": "21",
+        "Played": "14",
+        "Winned": "6",
+        "Loosed": "5",
+        "Tie": "3",
+        "Goal Difference": "5"
+    },
+    {
+        "Position": "10",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F143.png",
+        "Name": "Valencia",
+        "Points": "19",
+        "Played": "14",
+        "Winned": "5",
+        "Loosed": "5",
+        "Tie": "4",
+        "Goal Difference": "7"
+    },
+    {
+        "Position": "11",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F220.png",
+        "Name": "Mallorca",
+        "Points": "19",
+        "Played": "14",
+        "Winned": "5",
+        "Loosed": "5",
+        "Tie": "4",
+        "Goal Difference": "0"
+    },
+    {
+        "Position": "12",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F244.png",
+        "Name": "Real Valladolid",
+        "Points": "17",
+        "Played": "14",
+        "Winned": "5",
+        "Loosed": "7",
+        "Tie": "2",
+        "Goal Difference": "-8"
+    },
+    {
+        "Position": "13",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F685.png",
+        "Name": "Girona",
+        "Points": "16",
+        "Played": "14",
+        "Winned": "4",
+        "Loosed": "6",
+        "Tie": "4",
+        "Goal Difference": "-2"
+    },
+    {
+        "Position": "14",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F212.png",
+        "Name": "Almería",
+        "Points": "16",
+        "Played": "14",
+        "Winned": "5",
+        "Loosed": "8",
+        "Tie": "1",
+        "Goal Difference": "-6"
+    },
+    {
+        "Position": "15",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F216.png",
+        "Name": "Getafe",
+        "Points": "14",
+        "Played": "14",
+        "Winned": "3",
+        "Loosed": "6",
+        "Tie": "5",
+        "Goal Difference": "-8"
+    },
+    {
+        "Position": "16",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F215.png",
+        "Name": "Espanyol",
+        "Points": "12",
+        "Played": "14",
+        "Winned": "2",
+        "Loosed": "6",
+        "Tie": "6",
+        "Goal Difference": "-6"
+    },
+    {
+        "Position": "17",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F680.png",
+        "Name": "Celta Vigo",
+        "Points": "12",
+        "Played": "14",
+        "Winned": "3",
+        "Loosed": "8",
+        "Tie": "3",
+        "Goal Difference": "-12"
+    },
+    {
+        "Position": "18",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F28.png",
+        "Name": "Sevilla",
+        "Points": "11",
+        "Played": "14",
+        "Winned": "2",
+        "Loosed": "7",
+        "Tie": "5",
+        "Goal Difference": "-9"
+    },
+    {
+        "Position": "19",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F750.png",
+        "Name": "Cádiz",
+        "Points": "11",
+        "Played": "14",
+        "Winned": "2",
+        "Loosed": "7",
+        "Tie": "5",
+        "Goal Difference": "-17"
+    },
+    {
+        "Position": "20",
+        "SquadLogo": "https://image-service.onefootball.com/transform?w=21&h=21&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F682.png",
+        "Name": "Elche",
+        "Points": "4",
+        "Played": "14",
+        "Winned": "0",
+        "Loosed": "10",
+        "Tie": "4",
+        "Goal Difference": "-21"
+    }
+]
