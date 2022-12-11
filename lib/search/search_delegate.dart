@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:football_app/models/competition.dart';
-import 'package:football_app/provider/football_provider.dart';
 import 'package:football_app/widgets/widgets.dart';
 
-import 'package:provider/provider.dart';
 
 import '../utils/const.dart';
 
@@ -55,15 +53,15 @@ class CompetitionSearchDelegate extends SearchDelegate {
 
     for (var competition in Const.competitions) {
       
-      if (competition.nameBeauty.startsWith(query)) {
+      if (competition.nameBeauty.toLowerCase().startsWith(query.toLowerCase())) {
         competitions.add(competition);
       }
 
     }
     return MyListView(competitions: competitions);
   }
-
 }
+
 
 Widget _EmptyContainer() {
   return const Center(
@@ -76,8 +74,9 @@ Widget _EmptyContainer() {
 
 
 class MyListView extends StatelessWidget {
-  final List<Competition> competitions;
   const MyListView({super.key, required this.competitions});
+
+  final List<Competition> competitions;
 
   @override
   Widget build(BuildContext context) {
