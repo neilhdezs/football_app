@@ -24,6 +24,13 @@ class CompetitionsTable {
     String tie;
     String goalDifference;
 
+    get getSquadLogo {
+      if (squadLogo != null) {
+        return squadLogo;
+      }
+      return 'https://i.stack.imgur.com/GNhx0.png';
+    }
+
     factory CompetitionsTable.fromJson(String str) => CompetitionsTable.fromMap(json.decode(str));
 
     String toJson() => json.encode(toMap());

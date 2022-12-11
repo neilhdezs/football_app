@@ -7,23 +7,23 @@ import 'package:provider/provider.dart';
 import 'provider/football_provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const AppState());
 }
 
 
-// class AppState extends StatelessWidget {
-//   const AppState({super.key});
+class AppState extends StatelessWidget {
+  const AppState({super.key});
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return MultiProvider(
-//       providers: [
-//         ChangeNotifierProvider(create: ( _ ) => FootballProvider(), lazy: false,)
-//       ],
-//       child: const MyApp(),
-//     );
-//   }
-// }
+  @override
+  Widget build(BuildContext context) {
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: ( _ ) => FootballProvider(), lazy: false,)
+      ],
+      child: const MyApp(),
+    );
+  }
+}
 
 
 class MyApp extends StatelessWidget {

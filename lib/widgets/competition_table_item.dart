@@ -13,8 +13,14 @@ class TableCompetitionItem extends StatelessWidget {
     return Row(
       children: [
         
-        Image.network(table.squadLogo, scale: 1.5,),
-        SizedBox(width: 0,),
+        FadeInImage(
+          placeholder: const AssetImage('assets/no-image.jpg'),
+          image: NetworkImage(table.getSquadLogo),
+          height: 27.5,
+          width: 27.5,
+          fit: BoxFit.cover,
+        ),
+        const SizedBox(width: 0,),
         if(table.position.length == 1)
         Text('\t\t\t${table.position}º\t'),
         if(table.position.length != 1)

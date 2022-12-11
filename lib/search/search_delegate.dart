@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:football_app/models/competition.dart';
 import 'package:football_app/provider/football_provider.dart';
 import 'package:football_app/widgets/widgets.dart';
 
 import 'package:provider/provider.dart';
+
+import '../utils/const.dart';
 
 class CompetitionSearchDelegate extends SearchDelegate {
   @override
@@ -30,17 +33,16 @@ class CompetitionSearchDelegate extends SearchDelegate {
       return _EmptyContainer();
     }
 
-    final competitionProvider = Provider.of<FootballProvider>(context, listen: true); 
-    List<String> competitionsFilter = [];
+    List<Competition> competitions = [];
 
-    for (var competition in competitionProvider.listCompetitionsAvailable) {
+    for (var competition in Const.competitions) {
       
-      if (competition.startsWith(query)) {
-        competitionsFilter.add(competition);
+      if (competition.nameBeauty.startsWith(query)) {
+        competitions.add(competition);
       }
 
     }
-    return MyListView(competitions: competitionsFilter);
+    return MyListView(competitions: competitions);
   }
 
   @override
@@ -49,17 +51,16 @@ class CompetitionSearchDelegate extends SearchDelegate {
       return _EmptyContainer();
     }
 
-    final competitionProvider = Provider.of<FootballProvider>(context, listen: true); 
-    List<String> competitionsFilter = [];
+    List<Competition> competitions = [];
 
-    for (var competition in competitionProvider.listCompetitionsAvailable) {
+    for (var competition in Const.competitions) {
       
-      if (competition.startsWith(query)) {
-        competitionsFilter.add(competition);
+      if (competition.nameBeauty.startsWith(query)) {
+        competitions.add(competition);
       }
 
     }
-    return MyListView(competitions: competitionsFilter);
+    return MyListView(competitions: competitions);
   }
 
 }
@@ -75,7 +76,7 @@ Widget _EmptyContainer() {
 
 
 class MyListView extends StatelessWidget {
-  final List<String> competitions;
+  final List<Competition> competitions;
   const MyListView({super.key, required this.competitions});
 
   @override

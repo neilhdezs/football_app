@@ -24,22 +24,7 @@ class FootballProvider extends ChangeNotifier {
     return jsonData.body;
   }
 
-  Future<List<String>> getListCompetitionsAvailable() async {
-    
-    if (listCompetitionsAvailable.isEmpty) {
-      var data = await _getJsonData(endPoint: 'competitions');
-
-      String dataClean = data.trim().substring(2, data.length-2);
-      listCompetitionsAvailable.clear();
-      for (var competition in dataClean.split(',')) {
-        listCompetitionsAvailable.add(competition);
-      }
-    }
-
-    return listCompetitionsAvailable;
-  }
-
-    Future<List<CompetitionsTable>> getCompetitionTable(String competition) async {
+  Future<List<CompetitionsTable>> getCompetitionTable(String competition) async {
       var data = await _getJsonData(competition: competition, option: '/table');
 
       Iterable l = json.decode(data);
