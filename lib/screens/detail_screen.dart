@@ -27,51 +27,44 @@ class DetailScreen extends StatelessWidget {
               height: 10,
               width: size.width,
               child: Row(
-                children: const [
-                  SizedBox(
+                children: [
+                  const SizedBox(
                     width: 30,
                     height: 30,
                     child: Text('CLUB', textScaleFactor: 0.7, textAlign: TextAlign.center,),
                   ),
                   SizedBox(
-                    width: 15,
+                    width: size.width*0.155,
                   ),
-                  SizedBox(
-                    width: 30,
-                    height: 30,
-                  ),
-                  SizedBox(
-                    width: 19,
-                  ),
-                  SizedBox(
+                  const SizedBox(
                     width: 30,
                     child: Text('PJ', textScaleFactor: 0.7, textAlign: TextAlign.center,),
                   ),
                   SizedBox(
-                    width: 30,
+                    width: size.width*0.075,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 27.5,
                     child: Text('V', textScaleFactor: 0.7, textAlign: TextAlign.center,),
                   ),
                   SizedBox(
-                    width: 30,
+                    width: size.width*0.07,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 30,
                     child: Text('E', textScaleFactor: 0.7, textAlign: TextAlign.center,),
                   ),
                   SizedBox(
-                    width: 30,
+                    width: size.width*0.075,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 30,
                     child: Text('D', textScaleFactor: 0.7, textAlign: TextAlign.center,),
                   ),
                   SizedBox(
-                    width: 30,
+                    width: size.width*0.075,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 30,
                     child: Text('Pts', textScaleFactor: 0.7, textAlign: TextAlign.center,),
                   ),

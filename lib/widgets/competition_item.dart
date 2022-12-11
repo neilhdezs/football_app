@@ -13,6 +13,8 @@ class CompetitionItem extends StatelessWidget {
       onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => DetailScreen(competition: competition.name),)),
       child: ListTile(
         leading: Image(
+          height: 50,
+          width: 50,
           image: AssetImage('assets/${competition.name}.jpg'),
         ),
         title: Text(competition.nameBeauty, style: const TextStyle(color: Colors.black),),
