@@ -33,10 +33,10 @@ class TableCompetitionItem extends StatelessWidget {
         Text('\t\t${table.winned}'),
         
         SizedBox(width: size.width*0.09,),
-        if(table.winned.length == 1)
-        Text('\t\t${table.winned}\t\t'),
-        if(table.winned.length != 1)
-        Text('\t\t${table.winned}'),
+        if(table.tie.length == 1)
+        Text('\t\t${table.tie}\t\t'),
+        if(table.tie.length != 1)
+        Text('\t\t${table.tie}'),
 
         SizedBox(width: size.width*0.09,),
         if(table.loosed.length == 1)

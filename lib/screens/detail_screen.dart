@@ -50,32 +50,53 @@ class DetailScreen extends StatelessWidget {
               height: 10,
               width: size.width,
               child: Row(
-                children: [
-                  const SizedBox(
+                children: const [
+                  SizedBox(
                     width: 30,
                     height: 30,
                     child: Text('CLUB', textScaleFactor: 0.7, textAlign: TextAlign.center,),
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 15,
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 30,
                     height: 30,
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 19,
                   ),
-                  const SizedBox(
-                    width: 20,
+                  SizedBox(
+                    width: 30,
                     child: Text('PJ', textScaleFactor: 0.7, textAlign: TextAlign.center,),
                   ),
-                  const SizedBox(
-                    width: 50,
+                  SizedBox(
+                    width: 30,
                   ),
-                  Container(
-                    color: Colors.amber,
-                    width: 10,
+                  SizedBox(
+                    width: 27.5,
+                    child: Text('V', textScaleFactor: 0.7, textAlign: TextAlign.center,),
+                  ),
+                  SizedBox(
+                    width: 30,
+                  ),
+                  SizedBox(
+                    width: 30,
+                    child: Text('E', textScaleFactor: 0.7, textAlign: TextAlign.center,),
+                  ),
+                  SizedBox(
+                    width: 30,
+                  ),
+                  SizedBox(
+                    width: 30,
+                    child: Text('D', textScaleFactor: 0.7, textAlign: TextAlign.center,),
+                  ),
+                  SizedBox(
+                    width: 30,
+                  ),
+                  SizedBox(
+                    width: 30,
+                    child: Text('Pts', textScaleFactor: 0.7, textAlign: TextAlign.center,),
                   ),
                 ],
               ),
@@ -93,11 +114,16 @@ class DetailScreen extends StatelessWidget {
                         itemCount: listTableCompetition.length,
                         scrollDirection: Axis.vertical,
                         itemBuilder: (BuildContext context, int index) =>
-                            Column(
-                              children: [
-                                TableCompetitionItem(table: listTableCompetition[index]),
-                                const Divider()
-                              ],
+                            SizedBox(
+                              height: 50,
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  TableCompetitionItem(table: listTableCompetition[index]),
+                                  const Divider()
+                                ],
+                              ),
                             ),
                       ),
                     ),

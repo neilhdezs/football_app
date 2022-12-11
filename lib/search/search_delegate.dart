@@ -65,20 +65,18 @@ class CompetitionSearchDelegate extends SearchDelegate {
 }
 
 Widget _EmptyContainer() {
-  return Container(
-    child: const Center(
-        child: Icon(
-      Icons.movie_creation_outlined,
-      color: Colors.black38,
-      size: 130,
-    )),
-  );
+  return const Center(
+      child: Icon(
+    Icons.movie_creation_outlined,
+    color: Colors.black38,
+    size: 130,
+  ));
 }
 
 
 class MyListView extends StatelessWidget {
-  List<String> competitions;
-  MyListView({super.key, required this.competitions});
+  final List<String> competitions;
+  const MyListView({super.key, required this.competitions});
 
   @override
   Widget build(BuildContext context) {
